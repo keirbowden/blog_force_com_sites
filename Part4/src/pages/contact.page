@@ -1,0 +1,27 @@
+<apex:page sidebar="false" showheader="false" standardstylesheets="false">
+  <apex:composition template="template">
+    <apex:define name="title">
+       Bob Buzzard Blog Site - Contact
+    </apex:define>
+    <apex:define name="tabdef">
+   		<apex:variable var="tab" value="contact"/> 
+    </apex:define> 
+    <apex:define name="content">
+		<div id="content">
+			<div class="post">
+				<h2 class="title">Contact Bob Buzzard</h2>
+				<div class="entry">
+					<p>You can reach Bob Buzzard via a number of routes:</p>
+					  <ul>
+					    <li>Email: <a href="mailto:keir.bowden@googlemail.com">keir.bowden@googlemail.com</a></li>
+					    <li>Twitter: <a href="http://www.twitter.com/bob_buzzard" target="_blank">@bob_buzzard</a></li>
+					    <li>Facebook: <a href="http://www.facebook.com/TheRealBobBuzzard" target="_blank">Bob Buzzard</a></li>
+					  </ul>
+				</div>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+    </apex:define>
+  </apex:composition>
+</apex:page>
